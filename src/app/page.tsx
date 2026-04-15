@@ -8,6 +8,7 @@ import Ventures from "@/components/Ventures";
 import Skills from "@/components/Skills";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
+import ChatFab from "@/components/ChatFab";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Skills />
       <Connect />
       <Footer />
+      <ChatFab />
     </main>
   );
 }
