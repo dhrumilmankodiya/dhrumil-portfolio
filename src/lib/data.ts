@@ -18,14 +18,46 @@ export const heroData = {
 };
 
 export const colors = {
-  background: "#FFFFFF",
-  text: "#000000",
-  accent: "#2563EB",
+  background: "#0A0A0F",
+  backgroundDeep: "#050508",
+  surface: "#12121A",
+  surfaceLight: "#1A1A25",
+  surfaceElevated: "#1E1E2A",
+  text: "#FFFFFF",
+  textMuted: "#A0A0B0",
+  textDim: "#6B6B7B",
+  accent: "#6366F1",
+  accentLight: "#818CF8",
+  accentDark: "#4F46E5",
+  accentGradient: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 50%, #D946EF 100%)",
+  accentGlow: "rgba(99, 102, 241, 0.4)",
+  accentSubtle: "rgba(99, 102, 241, 0.1)",
+  gold: "#F5A623",
+  goldLight: "#FBD587",
+  goldGradient: "linear-gradient(135deg, #F5A623 0%, #F7B731 100%)",
+  success: "#10B981",
+  successLight: "#34D399",
+  error: "#EF4444",
+  warning: "#F59E0B",
+  border: "rgba(255, 255, 255, 0.08)",
+  borderLight: "rgba(255, 255, 255, 0.12)",
+  borderSubtle: "rgba(255, 255, 255, 0.04)",
+  cardGlow: "rgba(99, 102, 241, 0.15)",
+  cardBorder: "rgba(255, 255, 255, 0.06)",
 };
 
 export const typography = {
-  hero: "72px",
-  body: "16px",
+  hero: "clamp(56px, 10vw, 120px)",
+  heroMobile: "clamp(40px, 8vw, 72px)",
+  h1: "clamp(40px, 7vw, 80px)",
+  h2: "clamp(32px, 5vw, 56px)",
+  h3: "clamp(24px, 3.5vw, 40px)",
+  h4: "clamp(20px, 2.5vw, 28px)",
+  body: "18px",
+  bodyLarge: "20px",
+  bodySmall: "16px",
+  small: "14px",
+  tiny: "12px",
 };
 
 export interface Project {
@@ -36,6 +68,7 @@ export interface Project {
   thumbnail: string;
   link: string;
   description: string;
+  color?: string;
 }
 
 export const projects: Project[] = [
@@ -46,7 +79,8 @@ export const projects: Project[] = [
     tags: ["UX Research", "Design Systems", "Accessibility"],
     thumbnail: "/projects/rgi-website.jpg",
     link: "/projects/reliance-general",
-    description: "Comprehensive redesign of company website for seamless, accessible UX"
+    description: "Comprehensive redesign of company website for seamless, accessible UX",
+    color: "#6366F1"
   },
   {
     id: "2",
@@ -55,7 +89,8 @@ export const projects: Project[] = [
     tags: ["Dashboard", "Data Visualization", "Enterprise"],
     thumbnail: "/projects/hubble-dashboard.jpg",
     link: "/projects/hubble-hox",
-    description: "Complex interface design for enterprise products"
+    description: "Complex interface design for enterprise products",
+    color: "#8B5CF6"
   },
   {
     id: "3",
@@ -64,7 +99,8 @@ export const projects: Project[] = [
     tags: ["AI", "Chat Interface", "UX Research"],
     thumbnail: "/projects/cogno-ai.jpg",
     link: "/projects/cogno-ai",
-    description: "Complete AI chatbot interface redesign from research to implementation"
+    description: "Complete AI chatbot interface redesign from research to implementation",
+    color: "#D946EF"
   },
   {
     id: "4",
@@ -73,7 +109,8 @@ export const projects: Project[] = [
     tags: ["Fintech", "Trading", "High-Stakes UX"],
     thumbnail: "/projects/kotak-trading.jpg",
     link: "/projects/kotak-securities",
-    description: "Trading platform UX improvement for one of India's leading brokerages"
+    description: "Trading platform UX improvement for one of India's leading brokerages",
+    color: "#F5A623"
   },
   {
     id: "5",
@@ -82,7 +119,8 @@ export const projects: Project[] = [
     tags: ["Financial", "Dashboard", "Data Viz"],
     thumbnail: "/projects/krft-finance.jpg",
     link: "/projects/krft-finance",
-    description: "Complex financial dashboards for enterprise clients"
+    description: "Complex financial dashboards for enterprise clients",
+    color: "#10B981"
   },
   {
     id: "6",
@@ -91,7 +129,8 @@ export const projects: Project[] = [
     tags: ["Media Editing", "Product Design", "Launch"],
     thumbnail: "/projects/envy-editor.jpg",
     link: "/projects/envy-editor",
-    description: "Flagship product UI design for a media editing platform"
+    description: "Flagship product UI design for a media editing platform",
+    color: "#F43F5E"
   },
   {
     id: "7",
@@ -100,7 +139,8 @@ export const projects: Project[] = [
     tags: ["Event Services", "Startup", "Mobile"],
     thumbnail: "/projects/party-clap.jpg",
     link: "/projects/party-clap",
-    description: "Event and entertainment services platform"
+    description: "Event and entertainment services platform",
+    color: "#06B6D4"
   },
   {
     id: "8",
@@ -109,7 +149,8 @@ export const projects: Project[] = [
     tags: ["E-commerce", "Fashion", "Heritage"],
     thumbnail: "/projects/saura.jpg",
     link: "/projects/saura",
-    description: "Premium Gujarati clothing brand - traditional heritage meets contemporary design"
+    description: "Premium Gujarati clothing brand - traditional heritage meets contemporary design",
+    color: "#F97316"
   },
   {
     id: "9",
@@ -118,7 +159,8 @@ export const projects: Project[] = [
     tags: ["Fintech", "Analytics", "Surveillance"],
     thumbnail: "/projects/finfly.jpg",
     link: "/projects/finfly",
-    description: "Market surveillance and financial analytics platform"
+    description: "Market surveillance and financial analytics platform",
+    color: "#84CC16"
   },
   {
     id: "10",
@@ -127,7 +169,8 @@ export const projects: Project[] = [
     tags: ["Venture Capital", "Design Systems", "Multi-brand"],
     thumbnail: "/projects/golden-circle.jpg",
     link: "/projects/golden-circle",
-    description: "Parent company unifying all ventures under one vision"
+    description: "Parent company unifying all ventures under one vision",
+    color: "#EC4899"
   },
   {
     id: "11",
@@ -136,7 +179,8 @@ export const projects: Project[] = [
     tags: ["UX Research", "Platform Design", "Freelance"],
     thumbnail: "/projects/delegatex.jpg",
     link: "/projects/delegatex",
-    description: "Freelance platform with seamless user journeys"
+    description: "Freelance platform with seamless user journeys",
+    color: "#6366F1"
   },
   {
     id: "12",
@@ -145,7 +189,8 @@ export const projects: Project[] = [
     tags: ["Portfolio", "Showcase", "Creative"],
     thumbnail: "/projects/beyond.jpg",
     link: "/projects/beyond",
-    description: "Freelance work showcase with tailored UX solutions"
+    description: "Freelance work showcase with tailored UX solutions",
+    color: "#8B5CF6"
   },
   {
     id: "13",
@@ -154,7 +199,8 @@ export const projects: Project[] = [
     tags: ["Interactive", "Forms", "Conversion"],
     thumbnail: "/projects/quote-calc.jpg",
     link: "/projects/quote-calculator",
-    description: "Streamlined insurance quote flow with improved conversion rates"
+    description: "Streamlined insurance quote flow with improved conversion rates",
+    color: "#D946EF"
   },
   {
     id: "14",
@@ -163,7 +209,8 @@ export const projects: Project[] = [
     tags: ["Enterprise", "Forms", "B2B"],
     thumbnail: "/projects/claims-portal.jpg",
     link: "/projects/claims-portal",
-    description: "Simplified claims submission and tracking system"
+    description: "Simplified claims submission and tracking system",
+    color: "#F5A623"
   },
   {
     id: "15",
@@ -172,7 +219,8 @@ export const projects: Project[] = [
     tags: ["Mobile", "App Design", "iOS/Android"],
     thumbnail: "/projects/mobile-app.jpg",
     link: "/projects/mobile-app",
-    description: "End-to-end mobile application redesign for insurance services"
+    description: "End-to-end mobile application redesign for insurance services",
+    color: "#10B981"
   },
   {
     id: "16",
@@ -181,7 +229,8 @@ export const projects: Project[] = [
     tags: ["Components", "Documentation", "Scale"],
     thumbnail: "/projects/design-system.jpg",
     link: "/projects/design-system",
-    description: "Company-wide design system with components and documentation"
+    description: "Company-wide design system with components and documentation",
+    color: "#F43F5E"
   },
   {
     id: "17",
@@ -190,7 +239,8 @@ export const projects: Project[] = [
     tags: ["Research", "Testing", "Insights"],
     thumbnail: "/projects/user-research.jpg",
     link: "/projects/user-research",
-    description: "Comprehensive user research and usability testing"
+    description: "Comprehensive user research and usability testing",
+    color: "#06B6D4"
   },
   {
     id: "18",
@@ -199,7 +249,8 @@ export const projects: Project[] = [
     tags: ["Prototyping", "Figma", "Collaboration"],
     thumbnail: "/projects/prototyping.jpg",
     link: "/projects/prototyping",
-    description: "High-fidelity interactive prototypes for stakeholder review"
+    description: "High-fidelity interactive prototypes for stakeholder review",
+    color: "#F97316"
   },
   {
     id: "19",
@@ -208,7 +259,8 @@ export const projects: Project[] = [
     tags: ["Accessibility", "WCAG", "Compliance"],
     thumbnail: "/projects/accessibility.jpg",
     link: "/projects/accessibility",
-    description: "WCAG compliance audit and remediation recommendations"
+    description: "WCAG compliance audit and remediation recommendations",
+    color: "#84CC16"
   }
 ];
 
