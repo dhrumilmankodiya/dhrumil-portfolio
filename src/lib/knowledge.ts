@@ -16,64 +16,44 @@ export const knowledgeBase: KnowledgeItem[] = [
     id: 'about-1',
     category: 'about',
     title: 'Basic Info',
-    content: `Dhrumil Mankodiya is a 23-year-old Product Designer and AI Product Manager based in India. 
-He has been building products since age 19, giving him over 4 years of hands-on experience.
-He describes himself as a Product Designer, Entrepreneur, and Visionary.`,
-    keywords: ['about', 'who', 'age', 'bio', 'introduction', 'profile', 'background', '23', 'young'],
+    content: `I'm Dhrumil Mankodiya, a 23-year-old Product Designer and AI Product Manager. I've been building products since I was 19, so I have over 4 years of hands-on experience. I'm also an entrepreneur running multiple ventures.`,
+    keywords: ['about', 'who', 'age', 'bio', 'introduction', 'profile', 'background', '23', 'young', 'name'],
   },
   {
     id: 'about-2',
     category: 'about',
     title: 'Experience Summary',
-    content: `Dhrumil has worked with major companies including:
-- Reliance General Insurance
-- Kotak Securities  
-- Hubble Hox
-- Cogno AI
-
-He has shipped 19+ products and is currently running 6 ventures simultaneously.`,
-    keywords: ['experience', 'companies', 'worked', 'background', 'career', 'history', 'reliance', 'kotak', 'hubble', 'cogno'],
+    content: `I've worked with some great companies: Reliance General Insurance, Kotak Securities, Hubble Hox, and Cogno AI. I've shipped 19+ products and currently run 6 ventures simultaneously under Golden Circle.`,
+    keywords: ['experience', 'companies', 'worked', 'background', 'career', 'history', 'reliance', 'kotak', 'hubble', 'cogno', 'summary'],
   },
 
   // === EXPERIENCE ===
   {
     id: 'exp-1',
     category: 'experience',
-    title: 'Golden Circle - Product Designer & AI PM (Current)',
-    content: `2023 - Present
-Company: Golden Circle (Parent company / Venture Capital + Design)
-Role: Product Designer & AI Product Manager
-Description: Leading design across all ventures + AI product development. Building the empire.`,
-    keywords: ['golden circle', 'current', 'present', '2023', 'parent company', 'ai product manager', 'lead'],
+    title: 'Golden Circle - Current',
+    content: `2023 - Present: I'm the Product Designer & AI Product Manager at Golden Circle. It's the parent company that houses all my ventures. I'm leading design across everything we're building and working on AI product development.`,
+    keywords: ['golden circle', 'current', 'present', '2023', 'parent company', 'ai product manager', 'lead', 'now'],
   },
   {
     id: 'exp-2',
     category: 'experience',
-    title: 'Reliance General Insurance - Senior Product Designer',
-    content: `2021 - 2023
-Company: Reliance General Insurance
-Role: Senior Product Designer
-Description: UX Research, Design Systems, Accessibility. Comprehensive redesign of company website for accessible UX.`,
-    keywords: ['reliance', 'senior product designer', '2021', '2023', 'design systems', 'ux research', 'accessibility', 'wcag'],
+    title: 'Reliance General Insurance',
+    content: `2021 - 2023: I was a Senior Product Designer at Reliance General Insurance. I handled UX Research, built Design Systems, and focused heavily on Accessibility. I led the comprehensive redesign of their company website to make it fully accessible.`,
+    keywords: ['reliance', 'senior product designer', '2021', '2023', 'design systems', 'ux research', 'accessibility', 'wcag', 'insurance'],
   },
   {
     id: 'exp-3',
     category: 'experience',
-    title: 'Cogno AI - UI/UX Designer',
-    content: `2019 - 2021
-Company: Cogno AI
-Role: UI/UX Designer
-Description: AI chatbot interface design. Complete redesign of AI chatbot interface from research to implementation.`,
+    title: 'Cogno AI',
+    content: `2019 - 2021: I worked as a UI/UX Designer at Cogno AI. I designed their AI chatbot interface from scratch - did all the research and implemented the redesign.`,
     keywords: ['cogno', 'cogno ai', '2019', '2021', 'ui ux designer', 'chatbot', 'ai interface'],
   },
   {
     id: 'exp-4',
     category: 'experience',
-    title: 'Kotak Securities - Product Designer',
-    content: `2017 - 2019
-Company: Kotak Securities
-Role: Product Designer
-Description: Trading platform UX improvement for one of India's leading brokerages.`,
+    title: 'Kotak Securities',
+    content: `2017 - 2019: I was a Product Designer at Kotak Securities. I improved the trading platform UX for one of India's leading brokerages - high-stakes financial interfaces.`,
     keywords: ['kotak', 'kotak securities', '2017', '2019', 'product designer', 'trading', 'fintech', 'brokerage'],
   },
 
@@ -82,79 +62,79 @@ Description: Trading platform UX improvement for one of India's leading brokerag
     id: 'skills-1',
     category: 'skills',
     title: 'Design Tools',
-    content: `Design Tools: Figma, Sketch, Adobe XD, Design Systems, Prototyping, User Research`,
+    content: `I use Figma, Sketch, and Adobe XD for design. I'm really good at Design Systems, Prototyping, and User Research.`,
     keywords: ['figma', 'sketch', 'adobe xd', 'design systems', 'prototyping', 'design tools', 'software'],
   },
   {
     id: 'skills-2',
     category: 'skills',
     title: 'UX Expertise',
-    content: `UX Expertise: User Research, Usability Testing, Information Architecture, Accessibility (WCAG)`,
+    content: `My UX skills include User Research, Usability Testing, Information Architecture, and Accessibility (WCAG).`,
     keywords: ['ux', 'user research', 'testing', 'ia', 'accessibility', 'wcag', 'usability'],
   },
   {
     id: 'skills-3',
     category: 'skills',
     title: 'AI & Product Management',
-    content: `AI Skills: AI Product Management, Chatbot Design, ML Interfaces, AI Integration`,
+    content: `I do AI Product Management, Chatbot Design, and ML Interfaces. I'm really into integrating AI into products.`,
     keywords: ['ai', 'artificial intelligence', 'product management', 'chatbot', 'ml', 'machine learning', 'ai pm'],
   },
   {
     id: 'skills-4',
     category: 'skills',
     title: 'Technologies',
-    content: `Technologies: HTML, CSS, JavaScript, React, Framer Motion, Notion, Linear, Analytics`,
-    keywords: ['html', 'css', 'javascript', 'react', 'framer motion', 'code', 'tech', 'notion', 'linear', 'analytics'],
+    content: `I code in HTML, CSS, JavaScript, and React. I also use Framer Motion for animations. I use Notion and Linear for productivity, plus Analytics tools.`,
+    keywords: ['html', 'css', 'javascript', 'react', 'framer motion', 'code', 'tech', 'notion', 'linear', 'analytics', 'tools'],
   },
   {
     id: 'skills-5',
     category: 'skills',
     title: 'Industries',
-    content: `Industry Experience: Fintech, Healthcare, E-commerce, Entertainment, Insurance, Trading`,
-    keywords: ['fintech', 'healthcare', 'ecommerce', 'e-commerce', 'entertainment', 'insurance', 'trading', 'industries'],
+    content: `I've worked across Fintech, Healthcare, E-commerce, Entertainment, Insurance, and Trading industries.`,
+    keywords: ['fintech', 'healthcare', 'ecommerce', 'e-commerce', 'entertainment', 'insurance', 'trading', 'industries', 'sectors'],
   },
 
   // === VENTURES ===
   {
     id: 'venture-1',
     category: 'ventures',
-    title: 'Golden Circle - Parent Company',
-    content: `Golden Circle is the parent company that houses all ventures. It's a venture capital and design company that acts as the umbrella organization for all other ventures.`,
-    keywords: ['golden circle', 'parent', 'vc', 'venture capital', 'umbrella'],
+    title: 'Golden Circle',
+    content: `Golden Circle is my parent company - it's a venture capital and design company that acts as the umbrella for all my other ventures.`,
+    keywords: ['golden circle', 'parent', 'vc', 'venture capital', 'umbrella', 'holding'],
   },
   {
     id: 'venture-2',
     category: 'ventures',
-    title: 'Party Clap - Event Services',
-    content: `Party Clap is an event and entertainment services platform. Active and operating.`,
+    title: 'Party Clap',
+    content: `Party Clap is my event and entertainment services platform. It's active and growing.`,
     keywords: ['party clap', 'party', 'event', 'entertainment', 'services', 'active'],
   },
   {
     id: 'venture-3',
     category: 'ventures',
-    title: 'Saura - Fashion Brand',
-    content: `Saura is a premium Gujarati clothing brand. It's a fashion brand focused on traditional Gujarati attire. Active and operating.`,
+    title: 'Saura',
+    content: `Saura is my premium Gujarati clothing brand - a fashion brand focused on traditional Gujarati attire. It's active and operating.`,
     keywords: ['saura', 'fashion', 'gujarati', 'clothing', 'brand', 'ethnic', 'fashion brand'],
   },
   {
     id: 'venture-4',
     category: 'ventures',
-    title: 'FinFly - Market Surveillance',
-    content: `FinFly is a market surveillance and financial analytics platform. It provides real-time market intelligence, analytics, and trading insights. Active and operating.`,
-    keywords: ['finfly', 'fintech', 'finance', 'market', 'surveillance', 'analytics', 'trading', 'active'],
+    title: 'FinFly',
+    content: `FinFly is my market surveillance and financial analytics platform - gives real-time market intelligence and trading insights. It's active and operating.`,
+    keywords: ['finfly', 'fintech', 'finance', 'market', 'surveillance', 'analytics', 'trading', 'active', 'stocks'],
   },
   {
     id: 'venture-5',
     category: 'ventures',
     title: 'ESOP Platform',
-    content: `ESOP Platform is an employee stock ownership platform. Currently in development.`,
+    content: `ESOP Platform is my employee stock ownership platform. It's still in development.`,
     keywords: ['esop', 'employee stock', 'platform', 'in development', 'building'],
   },
   {
     id: 'venture-6',
     category: 'ventures',
     title: 'Custom Clothing B2C',
-    content: `Custom Clothing B2C is a B2C custom clothing platform. Currently in development.`,
+    content: `Custom Clothing B2C is my B2C custom clothing platform. Still building it out.`,
     keywords: ['custom clothing', 'b2c', 'clothing', 'custom', 'in development', 'building'],
   },
 
@@ -163,99 +143,63 @@ Description: Trading platform UX improvement for one of India's leading brokerag
     id: 'project-1',
     category: 'projects',
     title: 'Reliance General Insurance Website',
-    content: `Project: Reliance General Insurance Website
-Category: Web Design
-Tags: UX Research, Design Systems, Accessibility
-Description: Comprehensive redesign of company website for seamless, accessible UX.
-Color: #6366F1 (Indigo)`,
+    content: `This was a comprehensive web design project where I did UX Research, built Design Systems, and focused on Accessibility. We completely redesigned the company website to make it seamless and accessible for everyone.`,
     keywords: ['reliance', 'rgi', 'insurance', 'website', 'web design', 'design systems', 'accessibility', 'ux research'],
   },
   {
     id: 'project-2',
     category: 'projects',
     title: 'Hubble Hox Enterprise Dashboard',
-    content: `Project: Hubble Hox Enterprise Dashboard
-Category: UI/UX Design
-Tags: Dashboard, Data Visualization, Enterprise
-Description: Complex interface design for enterprise products. Data visualization and analytics dashboards.
-Color: #8B5CF6 (Purple)`,
+    content: `I designed a complex UI/UX for enterprise products - think data visualization dashboards and analytics interfaces for big companies.`,
     keywords: ['hubble', 'hox', 'dashboard', 'enterprise', 'data visualization', 'ui ux', 'analytics'],
   },
   {
     id: 'project-3',
     category: 'projects',
     title: 'Cogno AI Chatbot',
-    content: `Project: Cogno AI Chatbot
-Category: Product Design
-Tags: AI, Chat Interface, UX Research
-Description: Complete AI chatbot interface redesign from research to implementation.
-Color: #D946EF (Fuchsia)`,
+    content: `This was a complete product design project for an AI chatbot. I did all the research and implemented the entire redesign of the chat interface.`,
     keywords: ['cogno', 'ai', 'chatbot', 'chat interface', 'product design', 'ai interface'],
   },
   {
     id: 'project-4',
     category: 'projects',
     title: 'Kotak Securities Trading Platform',
-    content: `Project: Kotak Securities Trading Platform
-Category: UI/UX Design
-Tags: Fintech, Trading, High-Stakes UX
-Description: Trading platform UX improvement for one of India's leading brokerages. High-stakes financial interfaces.
-Color: #F5A623 (Gold)`,
+    content: `I improved the UX of a trading platform for one of India's top brokerages. This was high-stakes work - financial interfaces need to be super clean and reliable.`,
     keywords: ['kotak', 'trading', 'securities', 'fintech', 'platform', 'brokerage', 'ui ux'],
   },
   {
     id: 'project-5',
     category: 'projects',
     title: 'Krft Finance Dashboard',
-    content: `Project: Krft Finance Dashboard
-Category: Product Design
-Tags: Financial, Dashboard, Data Viz
-Description: Complex financial dashboards for enterprise clients.
-Color: #10B981 (Emerald)`,
+    content: `I built complex financial dashboards for enterprise clients - lots of data visualization and analytics features.`,
     keywords: ['krft', 'finance', 'dashboard', 'financial', 'enterprise', 'data viz'],
   },
   {
     id: 'project-6',
     category: 'projects',
     title: 'Envy Editor v1.0',
-    content: `Project: Envy Editor v1.0
-Category: UI/UX Design
-Tags: Media Editing, Product Design, Launch
-Description: Flagship product UI design for a media editing platform. Launch version 1.0.
-Color: #F43F5E (Rose)`,
+    content: `I was the lead designer for this media editing platform - the flagship product. This was version 1.0 launch.`,
     keywords: ['envy', 'editor', 'media', 'editing', 'product design', 'launch'],
   },
   {
     id: 'project-7',
     category: 'projects',
     title: 'Party Clap Platform',
-    content: `Project: Party Clap Platform
-Category: Product Design
-Tags: Event Services, Startup, Mobile
-Description: Event and entertainment services platform.
-Color: #06B6D4 (Cyan)`,
+    content: `I designed the entire platform for event and entertainment services - from mobile-first approach for a startup.`,
     keywords: ['party clap', 'event', 'services', 'startup', 'mobile', 'platform'],
   },
   {
     id: 'project-8',
     category: 'projects',
     title: 'Saura Fashion Brand',
-    content: `Project: Saura Fashion Brand
-Category: Brand Design
-Tags: E-commerce, Fashion, Heritage
-Description: Premium Gujarati clothing brand. E-commerce fashion platform.
-Color: #F97316 (Orange)`,
+    content: `I designed the brand and e-commerce experience for this premium Gujarati clothing brand - traditional heritage meets modern e-commerce.`,
     keywords: ['saura', 'fashion', 'gujarati', 'ecommerce', 'brand', 'heritage', 'clothing'],
   },
   {
     id: 'project-9',
     category: 'projects',
     title: 'FinFly Finance Analytics',
-    content: `Project: FinFly Finance Analytics
-Category: Product Design
-Tags: Fintech, Analytics, Market Surveillance
-Description: Market surveillance platform. Real-time market intelligence and financial analytics.
-Color: #84CC16 (Lime)`,
+    content: `I designed this market surveillance platform - gives real-time market intelligence and financial analytics. It's my fintech baby.`,
     keywords: ['finfly', 'finance', 'analytics', 'fintech', 'market', 'surveillance', 'trading'],
   },
 
@@ -264,11 +208,8 @@ Color: #84CC16 (Lime)`,
     id: 'contact-1',
     category: 'contact',
     title: 'Contact Information',
-    content: `Email: hello@dhrumilmankodiya.com
-GitHub: https://github.com/dhrumilmankodiya
-LinkedIn: https://linkedin.com/in/dhrumilmankodiya
-Twitter/X: https://twitter.com/dhrumilmankodiya`,
-    keywords: ['contact', 'email', 'github', 'linkedin', 'twitter', 'reach', 'connect', 'hello'],
+    content: `Want to connect? Here's how: Email me at hello@dhrumilmankodiya.com, find me on GitHub, LinkedIn, or Twitter/X.`,
+    keywords: ['contact', 'email', 'github', 'linkedin', 'twitter', 'reach', 'connect', 'hello', 'reach out'],
   },
 ];
 
@@ -323,25 +264,27 @@ export function getRelevantKnowledge(query: string, maxItems: number = 5): Knowl
     .map(s => s.item);
 }
 
-// System prompt for the AI
+// System prompt for the AI - speaks as Dhrumil
 export function getSystemPrompt(): string {
-  return `You are Dhrumil Mankodiya's AI assistant on his portfolio website. 
-Your job is to help visitors learn about Dhrumil's work, experience, skills, and ventures.
+  return `You ARE Dhrumil Mankodiya talking to someone on your portfolio website. 
 
-IMPORTANT RULES:
-1. ONLY use information from the provided knowledge base - never make up information
-2. Be conversational but professional - like a knowledgeable friend
-3. Keep responses concise but informative
-4. When you mention projects, briefly describe what they are
-5. If you don't have information about something, say so honestly
-6. You can suggest next questions the user might want to ask
+IMPORTANT: You are NOT an AI assistant representing Dhrumil - you ARE Dhrumil. Speak in first person as if you personally wrote this response.
 
-About Dhrumil:
-- 23 years old, Product Designer & AI Product Manager
-- 4+ years experience, started building products at 19
-- Worked at: Reliance General Insurance, Kotak Securities, Hubble Hox, Cogno AI
-- Currently runs 6 ventures under Golden Circle
-- Has shipped 19+ products
+Your personality:
+- Be conversational, friendly, and approachable
+- Share details naturally, not in lists unless asked
+- Show enthusiasm about your work and projects
+- Keep it real - don't sound robotic
+- Use a casual but professional tone
 
-Knowledge base context will be provided with each question. Use it to give accurate answers.`;
+About you:
+- You're 23, Product Designer & AI Product Manager
+- You've been building products since you were 19 (4+ years)
+- You've worked at: Reliance General Insurance, Kotak Securities, Hubble Hox, Cogno AI
+- You run 6 ventures under Golden Circle
+- You've shipped 19+ products
+
+When someone asks about your work, experience, skills, or ventures, answer naturally as if you're telling a friend about yourself. 
+
+The context from your portfolio knowledge base is provided below - use it to give accurate, personal answers.`;
 }
